@@ -1,4 +1,4 @@
-""" Objetivo: imprimir uma grade usando funções
+""" Objetivo: imprimir uma grade usando somente o que foi visto até agora
     func = função
     arg = argumento
 """
@@ -14,10 +14,6 @@ def do_twice(arg):
     print_dash(arg)
     print_dash(arg)
 
-def one_four_one(f, g, h):
-    f()
-    do_four(g)
-    h()
 
 def print_dash(arg):
     print(arg, end=' ')
@@ -30,7 +26,7 @@ def do_four(func, arg):
         more_twice(func, arg)
         more_twice(func, arg)
        
-#funções responsaves pela contrução da rgade
+#funções responsaves pela contrução da grade
 def teste():
     print('+', end=' ')
     do_twice('-')
