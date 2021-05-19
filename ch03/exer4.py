@@ -1,5 +1,4 @@
-""" 
-    print(end='')
+""" print(end='')
     print('+', end='')#1 esse primeiro, 3, 5, 7
     print(' - - - - ', end='')#2 esse segundo, 4, 6, 8
     print('+')
