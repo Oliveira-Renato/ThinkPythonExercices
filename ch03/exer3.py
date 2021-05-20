@@ -1,4 +1,4 @@
-""" Objetivo: imprimir uma grade usando somente o que foi visto até agora
+""" Objetivo: imprimir uma grade usando apenas o que foi visto até agora
     func = função
     arg = argumento
 """
