@@ -6,7 +6,7 @@
     print(' ' * 9, end='')
     print('|', end='')
     -------------------------------------------------------
-    Criando uma grande usando apenas comandos visto até agora
+    Criando uma grade usando apenas comandos visto até agora
 """    
 def do_twice(func, arg):
     print_twice(arg)

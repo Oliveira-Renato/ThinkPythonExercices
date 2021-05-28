@@ -9,7 +9,6 @@ def do_twice(func, arg):
 
 def print_twice(arg):
     """exibe na tela o argumento duas vezes
-
        FUNC = nome da função
        arg = argumento
     """
