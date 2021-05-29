@@ -11,7 +11,7 @@ def square(t, length):
         bob.fd(length)
         bob.lt(90)
 
-""" the function square will draw a polygon. Pretty obvious
+""" the function polygon will draw a polygon. Pretty obvious
     n = 360/n will provide the polygon exterior angles
 """
 def polygon(t, length, n):
@@ -25,7 +25,7 @@ def polygon(t, length, n):
 """
 def circle(t, r):
     area = math.pi * math.pow(r,2)
-    circumference = math.pi * 16
+    #circumference = math.pi * 16
     polygon(t, area, 16)
 
 """ the function arc will draw a general circle by taking another parameter angle.
