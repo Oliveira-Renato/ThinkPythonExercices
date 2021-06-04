@@ -11,7 +11,7 @@ def square(t, length):
         t.fd(length)
         t.lt(90)
 
-""" the function square will draw a polygon. Pretty obvious
+""" the function polygon will draw a polygon. Pretty obvious
     n = 360/n will provide the polygon exterior angles
 """
 def polygon(t, length, n):
